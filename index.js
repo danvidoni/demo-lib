@@ -1,6 +1,6 @@
 function fancyConsole(name) {
   return function(args) {
-    console.log(`======== ${name} ==== : ${JSON.stringify(args)}`);
+    console.log(`======== ${name} ========= : ${JSON.stringify(args)}`);
   }
 }
 
